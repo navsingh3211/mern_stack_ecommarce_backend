@@ -40,6 +40,7 @@ app.use('/uploads',express.static('uploads'));
 
 app.use(errorMiddleware);
 
+console.log("Jai shree ram");
 
 app.listen(port,()=>{
   console.log(`Server is working on http://localhost:${port}`);
